@@ -1,0 +1,11 @@
+.admin-products-container {
+    margin-bottom: 80px;
+}
+
+:host /deep/ .pagination-box {
+    margin: 30px 0!important;
+}
+
+:host /deep/ data-table-header {
+    display: none;
+}
