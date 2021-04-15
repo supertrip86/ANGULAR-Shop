@@ -6,3 +6,12 @@
 .card-footer {
   padding: 0;
 }
+
+.card-footer button {
+  cursor: pointer;
+}
+
+.card-footer span {
+  display: block;
+  margin-top: 7px;
+}
