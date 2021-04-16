@@ -25,7 +25,8 @@ import { ShoppingModule } from './shopping/shopping.module';
     AngularFireModule.initializeApp(environment.firebase),
     RouterModule.forRoot([
       { path: '', component: ProductsComponent },
-      { path: 'login', component: LoginComponent }
+      { path: 'login', component: LoginComponent },
+      { path: '**', redirectTo: '' }
     ])
   ],
   providers: [],
