@@ -2,3 +2,7 @@ span {
     display: block;
     margin-top: 7px;
 }
+
+button {
+    width: 33px;
+}
